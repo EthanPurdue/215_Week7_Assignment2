@@ -1,5 +1,5 @@
 // use createElement to create pictures. Not ENTIRELY sure how to use append within context of flexible function 
-//     but was able to make it work
+//     but was able to make it work I believe as intended
 const ajakPic = document.createElement("img");
 ajakPic.src = "imagesEternals\\Ajak.jpg";
 
