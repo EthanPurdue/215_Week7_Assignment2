@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <h1>THE ETERNALS</h1>
+
+        <!--This is where the list of all available skills will be shown-->
+        <p class = "availableSkills"></p>
+       
+        <!--The div for the text field and corresponding button that will call upon the function-->
+        <p>
+            <label for="petNum">Desired Skill: </label>
+            <input type="text"5 id="skillReq" name="skillReq" maxlength="50" size="20"></input>
+            <button onclick="searchResult(document.getElementById('skillReq').value)">Search</button>
+        </p>
+        
+        <!--This is the class that will show the final list of who has the trait that you wanted to search-->
+        <p class = "eternalsList"></p> 
+        <script src = "index.js" defer></script>
+    </body>
+</html>
